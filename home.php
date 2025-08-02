@@ -14,8 +14,8 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
             <a class="navbar-brand" href="home.php">
-                <i class="fas fa-headset text-primary me-2"></i>
-                <span class="fw-bold">QuickDesk</span>
+  <i class="fas fa-headset me-2"></i>             
+     <span class="fw-bold">QuickDesk</span>
             </a>
             
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -89,38 +89,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
-                
-                <div class="col-lg-6">
-                    <div class="hero-image">
-                        <div class="dashboard-preview">
-                            <div class="preview-header">
-                                <div class="preview-dots">
-                                    <span class="dot red"></span>
-                                    <span class="dot yellow"></span>
-                                    <span class="dot green"></span>
-                                </div>
-                                <div class="preview-title">QuickDesk Dashboard</div>
-                            </div>
-                            <div class="preview-content">
-                                <div class="preview-stats">
-                                    <div class="stat-card">
-                                        <div class="stat-number">24</div>
-                                        <div class="stat-label">Total Tickets</div>
-                                    </div>
-                                    <div class="stat-card">
-                                        <div class="stat-number">18</div>
-                                        <div class="stat-label">Resolved</div>
-                                    </div>
-                                    <div class="stat-card">
-                                        <div class="stat-number">6</div>
-                                        <div class="stat-label">Pending</div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                </div>     
             </div>
         </div>
     </section>
