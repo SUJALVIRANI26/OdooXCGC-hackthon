@@ -158,21 +158,25 @@ body {
 }
 
 .timeline-item {
+ 
   position: relative;
   margin-bottom: 1.5rem;
+  
 }
 
 .timeline-item::before {
+
   content: "";
   position: absolute;
-  left: -0.5rem;
-  top: 0.5rem;
+  left: -1.7rem;
+  top: 0.4rem;
   width: 1rem;
   height: 1rem;
   border-radius: 50%;
   background-color: var(--primary-color);
   border: 2px solid #fff;
   box-shadow: 0 0 0 2px #dee2e6;
+  
 }
 
 /* Comments Section */
