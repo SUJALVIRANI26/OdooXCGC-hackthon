@@ -1,1 +1,0 @@
-# OdooXCGC-hackthon
