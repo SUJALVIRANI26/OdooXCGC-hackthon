@@ -1,27 +1,6 @@
 <?php
 require_once 'config/config.php';
 
-// Handle demo logins
-if (isset($_GET['demo'])) {
-    $demo_credentials = [
-        'admin' => ['username' => 'admin', 'password' => 'password123'],
-        'agent' => ['username' => 'agent', 'password' => 'password123'],
-        'user' => ['username' => 'user', 'password' => 'password123']
-    ];
-    
-    if (isset($demo_credentials[$_GET['demo']])) {
-        $user = new User();
-        $result = $user->login($demo_credentials[$_GET['demo']]['username'], $demo_credentials[$_GET['demo']]['password']);
-        
-        if ($result['success']) {
-            $_SESSION['user_id'] = $result['user']['id'];
-            $_SESSION['user'] = $result['user'];
-            header('Location: index.php?page=dashboard');
-            exit();
-        }
-    }
-}
-
 // Check if user is logged in
 function isLoggedIn() {
     return isset($_SESSION['user_id']);

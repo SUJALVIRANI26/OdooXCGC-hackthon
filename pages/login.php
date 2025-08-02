@@ -49,16 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     <div class="text-center">
                         <p class="mb-0">Don't have an account? <a href="index.php?page=register">Sign up</a></p>
                     </div>
-
-                    <!-- Demo Credentials -->
-                    <div class="mt-4 p-3 bg-light rounded">
-                        <small class="text-muted">
-                            <strong>Demo Credentials:</strong><br>
-                            Admin: admin / admin123<br>
-                            Agent: agent / agent123<br>
-                            User: user / user123
-                        </small>
-                    </div>
+      
                 </div>
             </div>
         </div>
